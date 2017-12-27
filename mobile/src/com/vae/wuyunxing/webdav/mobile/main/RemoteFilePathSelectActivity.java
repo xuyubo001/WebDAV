@@ -125,9 +125,9 @@ public class RemoteFilePathSelectActivity extends MobileBaseActivity {
 	}
 
 	private JackrabbitPath getJackrabbitPath() {
-		String domain = getResources().getString(R.string.webdav_domain);
-		String sambaUser = getResources().getString(R.string.webdav_root);
-		String password = getResources().getString(R.string.webdav_password);
+		String domain = "https://dav.jianguoyun.com/dav/";
+		String sambaUser = "418931423@qq.com";
+		String password = "198932752alove";
 		String path = PathUtil.appendPath(true, "/");
 		return new JackrabbitPath(domain, path, sambaUser, password);
 	}

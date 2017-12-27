@@ -43,9 +43,9 @@ public class WebDAVJackrabbitUploader extends JackrabbitUploader {
 	@Override
 	protected JackrabbitPath getJackrabbitPath() {
 			UploadInfo info = mInfo;
-		String domain = mContext.getResources().getString(R.string.webdav_domain);
-		String root = mContext.getResources().getString(R.string.webdav_root);
-		String password = mContext.getResources().getString(R.string.webdav_password);
+		String domain ="https://dav.jianguoyun.com/dav/";
+		String root = "418931423@qq.com";
+		String password = "198932752alove";
 			return new JackrabbitPath(domain, PathUtil.appendPath(false, info.getTo(), info.getFilename()),
 									  root, password);
 	}
