@@ -1,0 +1,60 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="BaseTheme" parent="AppBaseTheme">
+        <item name="android:windowAnimationStyle">@anim/slide_left_in</item>
+    </style>
+
+    <style name="AppTheme.Translucent" parent="BaseTheme">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AppTheme.Opaque" parent="BaseTheme">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="TextAppearance.TitleBar.Blue" parent="@android:style/TextAppearance.Holo">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Dialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="NoTitleDialog" parent="Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- popwindow -->
+    <style name="CategoryPopupWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/category_popup_window_enter</item>
+        <item name="android:windowExitAnimation">@anim/category_popup_window_exit</item>
+    </style>
+
+    <style name="SortPopupWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/sort_popup_window_enter</item>
+        <item name="android:windowExitAnimation">@anim/sort_popup_window_exit</item>
+    </style>
+
+    <style name="DefaultCircleProgressBar">
+        <item name="progress_background">@drawable/background_hard_disk_progress_background</item>
+        <item name="progress_drawable">@drawable/background_hard_disk_progress_drawable</item>
+        <item name="progress_max">100</item>
+        <item name="progress_percent">0</item>
+    </style>
+
+</resources>
