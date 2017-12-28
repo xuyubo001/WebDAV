@@ -262,7 +262,8 @@ public class JackrabbitFileExplorer implements FileExplorer {
 
 	@Override
 	public boolean isRoot() {
-		MKLog.d(JackrabbitFileExplorer.class, "isRoot; %s, %s", mRootDir.getRemotePath(), mCurrentDir.getRemotePath());
+
+		//MKLog.d(JackrabbitFileExplorer.class, "isRoot; %s, %s", mRootDir.getRemotePath(), mCurrentDir.getRemotePath());
 		return mRootDir.getRemotePath().equals(mCurrentDir.getRemotePath());
 	}
 

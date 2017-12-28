@@ -344,7 +344,7 @@ public class RemoteFileListFragment extends Fragment {
 	 * get jackrabbit path
 	 */
 	private JackrabbitPath getJackrabbitPath() {
-		String domain = "https://dav.jianguoyun.com/dav/";
+		String domain = "122.97.254.22";
 		String sambaUser = "418931423@qq.com";
 		String password = "198932752alove";
 		String path = PathUtil.appendPath(true, "/");

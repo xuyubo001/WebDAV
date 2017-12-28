@@ -10,7 +10,7 @@ import java.io.File;
 public class JackrabbitPath {
 
 	public static final String MOUNT_DIR = LibraryConfig.getInstance().getString(LibraryConfig.WEBDAV_ROOT_PATH);
-	public static final String PORT      = "8080";
+	public static final String PORT      = "80";
 	private String mHost;
 	private String mPath;
 	private String mUser;

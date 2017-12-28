@@ -89,7 +89,7 @@ public class MainActivity extends MobileBaseActivity{
 
         String httpRequest = "http://" + WebDAVFilePlayService.IP + ':' + WebDAVFilePlayService.PORT + WebDAVFileServer.WEBDAV_CONTENT_EXPORT_URI;
         String ext = Utils.getFileExtension(curPath);
-        String routerIP = mContext.getResources().getString(R.string.webdav_domain);
+        String routerIP = "122.97.254.22";
         String WebDAVFileCurrentEncodePath = null;
         try {
             WebDAVFileCurrentEncodePath = URLEncoder.encode(curPath, "UTF-8");

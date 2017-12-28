@@ -7,6 +7,7 @@ import android.util.Log;
 import com.owncloud.android.lib.common.OwnCloudClient;
 import com.owncloud.android.lib.common.OwnCloudClientFactory;
 import com.owncloud.android.lib.common.OwnCloudCredentialsFactory;
+import com.owncloud.android.lib.common.utils.Log_OC;
 import com.owncloud.android.lib.resources.files.RemoteFile;
 import com.vae.wuyunxing.webdav.library.imp.jackrabbit.JackrabbitFileExplorer;
 import com.vae.wuyunxing.webdav.library.imp.jackrabbit.JackrabbitPath;
@@ -80,23 +81,23 @@ public class WebDAVFileServer extends Thread implements HttpRequestHandler {
 
 	@Override
 	public void run() {
-		int port = INIT_PORT;
-		String ipAddr = "";
+		int port = 80;
+		String ipAddr = "122.97.254.22";
 
 		/** get address */
 		int n = HostInterface.getNHostAddresses();
-		if (n >= 1) {
-			ipAddr = HostInterface.getHostAddress(0);
-		}
+//		if (n >= 1) {
+//			ipAddr = HostInterface.getHostAddress(0);
+//		}
 
 		/** get port */
-		for (int i = 0; i < RETRY_COUNT; i++) {
-			if (Utils.checkPort(ipAddr, port)) {
-				break;
-			}
-			port++;
-		}
-
+//		for (int i = 0; i < RETRY_COUNT; i++) {
+//			if (Utils.checkPort(ipAddr, port)) {
+//				break;
+//			}
+//			port++;
+//		}
+		Log_OC.d(TAG + " #" , "getHostAddress:"+ipAddr);
 		try {
 			mHttpServer = new LocalHttpServer(ipAddr, port, this);
 		} catch (IOException e) {

@@ -67,7 +67,7 @@ public class OwnCloudClient extends HttpClient {
     private int mInstanceNumber = 0;
     
     private Uri mBaseUri;
-    
+
     /**
      * Constructor
      */
@@ -78,7 +78,7 @@ public class OwnCloudClient extends HttpClient {
         	throw new IllegalArgumentException("Parameter 'baseUri' cannot be NULL");
         }
         mBaseUri = baseUri;
-        
+
         mInstanceNumber = sIntanceCounter++;
         Log_OC.d(TAG + " #" + mInstanceNumber, "Creating OwnCloudClient");
         
@@ -102,6 +102,9 @@ public class OwnCloudClient extends HttpClient {
     private void applyProxySettings() {
     	String proxyHost = System.getProperty("http.proxyHost");
     	String proxyPortSt = System.getProperty("http.proxyPort");
+
+        Log_OC.d(TAG + " #" , "proxyPortSt:"+proxyHost);
+        Log_OC.d(TAG + " #" , "proxyPortSt:"+proxyPortSt);
     	int proxyPort = 0;
     	try {
     		if (proxyPortSt != null && proxyPortSt.length() > 0) {
@@ -207,7 +210,7 @@ public class OwnCloudClient extends HttpClient {
         		*/
 	            customRedirectionNeeded = mFollowRedirects;
 	        }
-        
+
 	        Log_OC.d(TAG + " #" + mInstanceNumber, "REQUEST " + 
 	        		method.getName() + " " + method.getPath());
         

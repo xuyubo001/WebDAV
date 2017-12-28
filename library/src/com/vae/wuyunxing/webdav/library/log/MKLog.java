@@ -5,7 +5,7 @@ public class MKLog {
 	private static CustomLogger mLogger = new CustomLogger() {
 		@Override
 		public boolean isDebugEnabled() {
-			return false;
+			return true;
 		}
 
 		@Override
