@@ -1,31 +1,31 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml:26:1-37:12
-INJECTED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml:26:1-37:12
-INJECTED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml:26:1-37:12
-INJECTED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml:26:1-37:12
-INJECTED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml:26:1-37:12
-INJECTED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml:26:1-37:12
-INJECTED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml:26:1-37:12
+ADDED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml:26:1-37:12
+INJECTED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml:26:1-37:12
+INJECTED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml:26:1-37:12
+INJECTED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml:26:1-37:12
+INJECTED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml:26:1-37:12
+INJECTED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml:26:1-37:12
+INJECTED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml:26:1-37:12
 	package
-		ADDED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml:27:5-39
-		INJECTED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml
-		INJECTED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml
+		ADDED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml:27:5-39
+		INJECTED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml
+		INJECTED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml:29:5-30
-		INJECTED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml
-		INJECTED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml
+		ADDED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml:29:5-30
+		INJECTED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml
+		INJECTED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml:26:11-69
+		ADDED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml:26:11-69
 	android:versionCode
-		ADDED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml:28:5-28
-		INJECTED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml
-		INJECTED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml
+		ADDED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml:28:5-28
+		INJECTED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml
+		INJECTED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml
 uses-sdk
-ADDED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml:31:5-33:40
+ADDED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml:31:5-33:40
 	android:targetSdkVersion
-		ADDED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml:33:9-37
+		ADDED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml:33:9-37
 	android:minSdkVersion
-		ADDED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml:32:9-34
+		ADDED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml:32:9-34
 application
-ADDED from C:\Users\dzd\AndroidStudioProjects\WebDav\WebDav-master\WebDAV\jackrabbit-webdav\AndroidManifest.xml:35:5-20
+ADDED from D:\project\WebDAV\jackrabbit-webdav\AndroidManifest.xml:35:5-20
